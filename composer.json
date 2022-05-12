@@ -16,7 +16,7 @@
         }
     },
     "require": {
-        "sailor/sailor":"1.0.*"
+        "sailor/sailor":"1.*"
     },
     "config": {
         "optimize-autoloader": true
