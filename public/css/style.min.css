@@ -1,0 +1,17 @@
+/* navbar */
+
+.navbar {
+    min-height: 20px !important;
+}
+.main-color {
+    background: #000;
+    color: #ffff;
+}
+/* .list-group .active {
+    background-color: #e74c3c !important;
+} */
+
+/* body */
+body {
+    background: #ffff;
+}
