@@ -2,7 +2,6 @@
 $router = new AltoRouter();
 
 $router->map('POST', '/', 'App\Http\Controllers\WelcomeController@index', 'index');
-$router->map('GET', '/', 'App\Http\Controllers\WelcomeController@formT', 'formT');
 $router->map('GET', '/logout', 'App\Http\Controllers\WelcomeController@logout', 'logout');
 
 
