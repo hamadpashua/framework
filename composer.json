@@ -16,6 +16,17 @@
         }
     },
     "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "filp/whoops": "*",
+        "vlucas/phpdotenv": "*",
+        "jenssegers/blade": "*",
+        "illuminate/events":"*",
+        "illuminate/database":"*",
+        "altorouter/altorouter": "^2.0",
+        "rakit/validation": "^1.4",
         "sailor/sailor":"1.*"
     },
     "config": {
