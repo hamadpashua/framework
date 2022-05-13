@@ -61,6 +61,24 @@
   </div>
   @endif
 
+  @if(has('success'))
+  <div class="container mx-4 my-2">
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+          {{ flash('success') }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  </div>
+  @endif
+
+  @if(session('fail'))
+  <div class="container mx-4 my-2">
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          {{ flash('fail') }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  </div>
+  @endif
+
         <div class="card mx-auto col-md-8">
             <div class="card-header">
                 <div class="card-title"><h5>testing middlewares</h5></div>
